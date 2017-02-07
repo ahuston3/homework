@@ -1,6 +1,5 @@
 .logo {
-  height: 34.5px;
-  width: 70px;
+  width: 60px;
 }
 .redbackground {
   background-color: #ff512f;
@@ -8,9 +7,8 @@
 .whitetext {
   color: white;
 }
-.shoe {
-  height: 70%;
-  width: 70%;
+.shoes {
+  width: 500px;
 }
 body {
   margin-top: 0;
