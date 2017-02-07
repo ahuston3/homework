@@ -21,3 +21,9 @@ body {
   font-size: 10px;
   color: #967878;
 }
+a {
+  color: purple;
+}
+.whitelink {
+  color: white;
+}
