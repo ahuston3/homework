@@ -1,0 +1,25 @@
+.logo {
+  height: 34.5px;
+  width: 70px;
+}
+.redbackground {
+  background-color: #ff512f;
+}
+.whitetext {
+  color: white;
+}
+.shoe {
+  height: 70%;
+  width: 70%;
+}
+body {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  font-family: sans-serif;
+}
+.footer {
+  font-size: 10px;
+  color: #967878;
+}
