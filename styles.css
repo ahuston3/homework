@@ -1,17 +1,96 @@
 .header {
-  padding: 10px 0;
+  height: 70px;
+}
+
+.image-cart {
+  width: 20px;
+}
+
+.shopping-cart {
+  display: inline-block;
 }
 
 body {
-  font-family: sans-serif;
   margin: 0;
+  font-family: "Open Sans";
+}
+
+h1, h2, h3 {
+  font-family: "Jaldi";
 }
 
 a {
   color: #ff512f;
   text-decoration: none;
-  padding-right: 10px;
   font-size: 10px;
+}
+
+.master {
+  display: inline-block;
+}
+
+.master-copy h1 {
+  font-size: 33px;
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.master-copy p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #b1290e;
+  display: block;
+  position: relative;
+  top: -7px;
+}
+
+.master-copy h2 {
+  font-size: 10px;
+  color: white;
+  display: inline-block;
+}
+
+.master-copy a {
+  color: #b1290e;
+  border-bottom: 1px solid #b1290e;
+  font-size: 10px;
+  font-family: "Jaldi";
+  float: right;
+}
+
+.master-copy h3 {
+  font-size: 24px;
+  display: inline-block;
+  margin-top: 0px;
+}
+
+.master-copy sup {
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+}
+
+.master-image {
+  display: inline-block;
+  float: left;
+}
+
+.master-copy {
+  display: inline-block;
+  float: right;
+  width: 400px;
+  padding-top: 45px;
+  padding-left: 40px;
+}
+
+a.back-link {
+  font-size: 9px;
+  text-transform: uppercase;
+  color: white;
 }
 
 .nav a:hover{
@@ -19,44 +98,54 @@ a {
 }
 
 .nav-hover {
-  padding-bottom: 10px;
+  padding-bottom: 3px;
 }
 
 .nav-hover:hover {
-    border-bottom: 2px solid #967878;
+    border-bottom: 2px solid #fbc2c3;
 }
 
 .logo {
-  width: 90px;
+  width: 50px;
   margin-left: 20px;
-  margin-top: 20px;
-  display: block;
+  display: inline-block;
+  position: relative;
+  top: 5px;
 }
 
 .nav {
   display: inline-block;
   margin-left: 24px;
-  margin-top: 10px;
   padding-right: 20px;
   font-weight: bold;
+  padding-top: 20px;
 }
 
 .nav2 {
   display: inline-block;
   margin-left: 24px;
-  margin-top: 18px;
   padding-right: 20px;
-  padding-bottom: 20px;
   color: #ffa6a6;
+  float: right;
+  padding-top: 25px;
+}
+
+.nav2 a {
+  padding: 0 5px;
+}
+
+.shopping-cart a {
+  padding: 0px;
 }
 
 .container {
-    width: 1260px;
+    /*width: 1345px;*/
+    width: 100%
     margin: 0 auto;
 }
 
 .container-inner {
-    width: 680px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
@@ -65,18 +154,20 @@ a {
     padding-bottom: 40px;
 }
 
-.btn {
+a.btn {
     text-transform: uppercase;
     background-color: #fff;
     color: #ff512f;
-    padding: 10px 20px;
+    text-align: center;
     font-size: 14px;
     display: inline-block;
     font-weight: bolder;
     margin-bottom: 40px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
+    padding: 8px 24px;
 }
 
 .btn:hover {
@@ -94,20 +185,32 @@ a {
 }
 
 .redbackground {
-  background-color: #ff512f;
+  background: linear-gradient(to right,  #dd2476 0%, #ff512f 100%);
 }
 
 .whitetext {
   color: white;
 }
 
-.shoes {
-  width: 634px;
-  padding-top: 90px;
+.shoe1 {
+  width: 480px;
+  padding-top: 27px;
+}
+
+.shoes2 {
+  width: 100%;
+}
+
+.shoes3 {
+  width: 100%;
+}
+
+.shoes4 {
+  width: 100%;
 }
 
 .footer {
-  font-size: 10px;
+
 }
 
 .nav h3 {
@@ -121,20 +224,70 @@ a {
 
 .nav3{
   display: inline-block;
+  border-bottom: 1px solid #fbc2c3;
+  width: 1000px;
+  margin: 0px 0px;
 }
 
 .nav3 a {
   display: inline-block;
+  margin-top: 0px;
+  padding-right: 20px;
+  font-size: 13px;
   color: #ff512f;
-  margin-top: 50px;
-  border-bottom: 1px solid #ff512f;
+}
+
+/*.nav3 h3 {
+  color: #ff512f;*/
+}
+
+.nav3-hover {
+  color: #b1290e;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.nav3 h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.nav3-hover:hover {
+  color: #b1290e;
+  border-bottom: 3px solid #fbc2c3;
 }
 
 .image-container {
-  padding-top: 20px;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 40px;
   padding-right: auto;
   padding-left: auto;
+  display: inline-block;
+}
+
+.middle {
+  padding-top: 35px;
+}
+
+.middle h1{
+  font-size: 18px;
+  color: #503226;
+}
+
+.middle h2{
+  font-size: 18px;
+  color: #503226;
+  padding-top: 40px;
+}
+
+.middle h3{
+  font-size: 12px;
+  color: #503226;
+}
+
+.middle p{
+  font-size: 12px;
+  color: #967878;
 }
 
 .price {
@@ -143,15 +296,22 @@ a {
 }
 
 .dashed-line {
-  border-bottom: 2px dashed #967878;
-  padding-bottom: 37px;
+  border-bottom: 2px dashed #db3b43;
+  padding-bottom: 18px;
+}
+
+.master-button {
+  display: inline-block;
 }
 
 .reviews {
-  color: #967878
+  color: #b1290e;
+  position: relative;
+  top: -20px;
 }
 
 .nav4 {
+  display: inline-block;
   margin-left: 24px;
   margin-top: 18px;
   padding-right: 20px;
@@ -161,26 +321,119 @@ a {
 
 .nav4 a {
     display: inline-block;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+.nav4 a:hover{
+  color: #b1290e;
+}
+
+/*.nav4-hover {
+  padding-bottom: 2px;
+}*/
+
+.nav4-hover:hover {
+    border-bottom: 2px solid #fbc2c3;
 }
 
 .nav5 {
-  display: inline-block;
+  /*display: inline-block;*/
   margin-left: 24px;
-  margin-top: 18px;
-  padding-right: 20px;
-  padding-bottom: 20px;
+  margin-top: 20px;
   color: #967878;
+  float: right;
+  position: relative;
+  margin-right: 20px;
 }
 
-.rec {
-  background-color: #ffeeeb;
-  color: #967878;
-  height: 70px;
+.rec{
+  background-color: #fceaf1;
+  color: #503226;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-size: 20px;
   text-align: center;
+  padding: 15px 0px;
+}
 
+.rec h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.sub-copy {
+  padding: 0 30px;
+}
+
+.sub-copy sup {
+  font-size: 10px;
+}
+
+.sub-copy h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.sub-copy h2 a {
+  font-size: 18px;
+}
+
+.sub-copy h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #b1290e;
+  position: relative;
+  top: -9px;
+  /*margin-top: 3px;*/
+}
+
+.sub-copy p {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+  float: right;
+  /*padding-top: 4px;*/
+}
+
+.sub-copy p a {
+  color: white;
+  font-size: 20px;
+  font-family: "Jaldi";
+}
+
+.recommended {
+  display: inline-block;
+  padding: 0 35px;
+}
+
+.sub-copy-main p {
+font-weight: bolder;
+}
+
+.column {
+  width: 33.33%;
+  float: left;
+}
+
+.column .image-container {
+  padding: 30px;
+  padding-bottom: 0;
+}
+
+.nav5 a {
+  display: inline-block;
+}
+
+.nav5 p {
+  display: inline-block;
+  font-size: 10px;
+}
+
+.inlineblock {
+  display: inline-block;
 }

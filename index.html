@@ -3,10 +3,11 @@
 <head>
 <title>Shoe Ecommerce</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Jaldi|Open+Sans" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <div class="header">
+  <div class="header">
+    <div class="container">
       <img class="logo" src="images/logo.jpg" alt="The logo for Quick Sneakers">
         <nav class="nav">
           <a href="#" class="nav-hover"><h3>MEN</h3></a>
@@ -15,40 +16,51 @@
           <a href="#" class="nav-hover"><h3>GIRLS</h3></a>
           <a href="#" class="nav-hover"><h3>CUSTOMIZE</h3></a>
         </nav>
-      <div>
         <nav class="nav2">
           <a href="#">Help</a>
           <a href="#">My Account</a>
-          <a href="#">Shoping Cart</a>
+          <div class="shopping-cart">
+            <img class="image-cart" src="images/cart.jpg" alt="illustration of a shopping cart">
+            <a href="#">Shoping Cart (2)</a>
+          </div>
         </nav>
-      </div>
     </div>
   </div>
   <div>
     <div class="redbackground whitetext">
       <div class="container-inner">
-        <a class="back-link" href="#">BACK TO ALL SHOES</a>
-        <div class="image-container">
-          <img class="shoes" src="images/shoe1.png" alt="A photo of a shoe">
-        </div>
-        <h1>Quick Sneakers</h1>
-        <p class="dashed-line">Spring/Summer 2017</p>
-        <p>this is the description of the quick sneakers store.</p>
-        <a href="#" class="reviews"><p>Read the reviews.</p></a>
-        <p class="dashed-line"></p>
-        <h2 class="price">$120.00</h2>
-        <a href="#" class="btn">Buy Now!</a>
+        <a class="back-link" href="#"> &#8592; BACK TO ALL SHOES</a>
+        <div class="master">
+          <div class="master-image">
+            <div class="image-container">
+              <img class="shoe1" src="images/shoe1.png" alt="A photo of a shoe">
+            </div>
+          </div>
+          <div class="master-copy">
+            <h1>Quick Sneakers</h1>
+            <p class="dashed-line">Spring/Summer 2017</p>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Pellentesque tempus odio a ante posuere hendrerit. Praesent
+               dolor nisl, posuere in auctor cursus, tincidunt feugiat tortor.
+               Vestibulum fermentum convallis mi, vel semper metus vestibulum in.</h2>
+            <a href="#" class="reviews">Read the reviews.</a>
+            <p class="dashed-line"></p>
+            <div class="master-button">
+              <h3 class="price"><sup>$</sup>120<sup>00</sup></h3>
+              <a href="#" class="btn">Buy Now!</a>
+            </div>
+          </div>
       </div>
     </div>
   </div>
   <div class="container-inner">
     <div class="nav3">
-      <a href="#"><h3>Product Details</h3></a>
-      <a href="#"><h3>Size & Fit</h3></a>
-      <a href="#"><h3>Reviews</h3></a>
+      <a href="#"><h3 class="nav3-hover">Product Details</h3></a>
+      <a href="#"><h3 class="nav3-hover">Size & Fit</h3></a>
+      <a href="#"><h3 class="nav3-hover">Reviews</h3></a>
     </div>
-    <div class="">
-    <h2>Exciting Topic</h2>
+    <div class="middle">
+    <h1>Exciting Topic</h1>
     <p>Content here</p>
     <h3>Exciting Topic</h3>
     <p>Content here</p>
@@ -61,70 +73,76 @@
   <div class="countainer rec">
     <h2>Shop Recommended Shoes</h2>
   </div>
-  <div  class="redbackground whitetext">
+  <div class="redbackground whitetext">
     <div class= "container-inner">
-      <div>
-        <div class="image-container">
-          <img class="shoes" src="images/shoe2.png" alt="A photo of a shoe">
-        </div>
-          <h2>
-            <a class="whitelink" href="#">Funny Sneakers</a>
-          </h2>
-          <h3>Spring/Summer 2017</h3>
-          <p>
-            <a href="#">$120.00</a>
-          </p>
-      </div>
-      <div>
-        <div class="image-container">
-          <img class="shoes" src="images/shoe3.png"  alt="A photo of a shoe">
-        </div>
-        <div>
-          <h2>
-            <a class="whitelink" href="#">Funny Sneakers</a>
-          </h2>
-          <h3>Spring/Summer 2017</h3>
-          <p>
-            <a href="#">$120.00</a>
-          </p>
-        </div>
-      </div>
-      <div>
+      <div class="recommended">
+        <div class="column">
           <div class="image-container">
-            <img class="shoes" src="images/shoe4.png"  alt="A photo of a shoe">
+            <img class="shoes2" src="images/shoe2.png" alt="A photo of a shoe">
           </div>
-          <div>
-            <h2>
-              <a class="whitelink" href="#">Cute Sneakers</a>
-            </h2>
+          <div class="sub-copy">
+            <div class="sub-copy-main">
+              <h2>
+                <a class="whitelink" href="#">Funny Sneakers</a>
+              </h2>
+              <p>
+                <a href="#"><sup>$</sup>120<sup>00</sup></a>
+              </p>
+              </div>
+              <h3>Spring/Summer 2017</h3>
+            </div>
+          </div>
+        <div class="column">
+          <div class="image-container">
+            <img class="shoes3" src="images/shoe3.png"  alt="A photo of a shoe">
+          </div>
+          <div class="sub-copy">
+            <div class="sub-copy-main">
+              <h2>
+                <a class="whitelink" href="#">Funny Sneakers</a>
+              </h2>
+              <p>
+                <a href="#"><sup>$</sup>120<sup>00</sup></a>
+              </p>
+            </div>
             <h3>Spring/Summer 2017</h3>
-            <p>
-              <a href="#">$120.00</a>
-            </p>
           </div>
+        </div>
+        <div class="column">
+            <div class="image-container">
+              <img class="shoes4" src="images/shoe4.png"  alt="A photo of a shoe">
+            </div>
+            <div class="sub-copy">
+              <div class="sub-copy-main">
+                <h2>
+                  <a class="whitelink" href="#">Cute Sneakers</a>
+                </h2>
+                <p>
+                  <a href="#"><sup>$</sup>120<sup>00</sup></a>
+                </p>
+              </div>
+              <h3>Spring/Summer 2017</h3>
+            </div>
+        </div>
       </div>
     </div>
   </div>
   <div class="footer">
-    <img class="logo" src="images/logo.jpg" alt="The logo for Quick Sneakers">
     <div class="container">
-      <div>
-        <nav = class="nav4">
-        <a href="#"><h3>MEN</h3></a>
-        <a href="#"><h3>WOMEN</h3></a>
-        <a href="#"><h3>BOYS</h3></a>
-        <a href="#"><h3>GIRLS</h3></a>
-        <a href="#"><h3>CUSTOMIZE</h3></a>
-        </nav>
-      </div>
-      <div>
-        <nav class="nav5">
-          <a href="#">Shipping</a> |
-          <a href="#">Terms & Conditions</a> |
-          © Copyright 2017. Sneaker Shop, LLC.
-        </nav>
+      <img class="logo" src="images/logo.jpg" alt="The logo for Quick Sneakers">
+          <nav class="nav4">
+          <a href="#"><h3 class="nav4-hover">MEN</h3></a>
+          <a href="#"><h3 class="nav4-hover">WOMEN</h3></a>
+          <a href="#"><h3 class="nav4-hover">BOYS</h3></a>
+          <a href="#"><h3 class="nav4-hover">GIRLS</h3></a>
+          <a href="#"><h3 class="nav4-hover">CUSTOMIZE</h3></a>
+          </nav>
+          <nav class="nav5">
+            <a href="#">Shipping &#124;</a>
+            <a href="#">Terms & Conditions &#124;</a>
+            <p>© Copyright 2017. Sneaker Shop, LLC.</p>
+          </nav>
       </div>
     </div>
-  </div>
 </body>
 </html>
